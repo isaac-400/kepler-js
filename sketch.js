@@ -106,11 +106,11 @@ p.setup = function() {
   c = p.createCanvas(400, 400);
   
   slider_p1 = p.createSlider(0, p.TWO_PI, p.QUARTER_PI, 0.02);
-  slider_p1.position(c.position().x +10, c.position().y + 10);
+  slider_p1.position(c.position().x + 10, c.position().y + p.height - p.width/7);
   slider_p1.style("width", p.width/2);
   
   slider_p2 = p.createSlider(0, p.TWO_PI, p.HALF_PI, 0.02);
-  slider_p2.position(c.position().x +10, c.position().y + 40);
+  slider_p2.position(c.position().x +10,c.position().y + p.height - p.width/10);
   slider_p2.style("width", p.width/2)
   
   p.angleMode(p.DEGREES);
