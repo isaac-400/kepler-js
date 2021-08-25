@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color:#444;
+  max-width: 66vw;
+  margin: 40px auto;
+  background: #EEEEEE;
+}
+h1, h2 {
+  line-height: 1.2;
+}
+.sketch {
+  width: 400px; 
+  position: relative;
+  margin: 0 auto;
+}
